@@ -289,6 +289,9 @@ body {
   grid-template-columns: 55fr 45fr;
   align-items: center;
 }
+.testimonials-container {
+  padding: 9.6rem;
+}
 
 .testimonials {
   display: grid;
