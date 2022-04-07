@@ -21,6 +21,16 @@
       nomodule
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+    <script
+      defer
+      src=" https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+    <script defer src="js/script.js"></script>
+
     <title>Omnifood</title>
   </head>
   <body>
@@ -32,19 +42,19 @@
       <nav class="main-nav">
         <ul class="main-nav-list">
           <li>
-            <a class="main-nav-link" href="#">How it works</a>
+            <a class="main-nav-link" href="#how-it-work">How it works</a>
           </li>
           <li>
-            <a class="main-nav-link" href="#">Meals</a>
+            <a class="main-nav-link" href="#meals">Meals</a>
           </li>
           <li>
-            <a class="main-nav-link" href="#">Testimonials</a>
+            <a class="main-nav-link" href="#testimonials">Testimonials</a>
           </li>
           <li>
-            <a class="main-nav-link" href="#">Pricing</a>
+            <a class="main-nav-link" href="#price">Pricing</a>
           </li>
           <li>
-            <a class="main-nav-link nav-cta" href="#">Try for free</a>
+            <a class="main-nav-link nav-cta" href="#cta">Try for free</a>
           </li>
         </ul>
       </nav>
@@ -65,7 +75,7 @@
               eat healthy again. Tailored to your personal tastes and
               nutritional needs. We have delivered 250,000+ meals last year!
             </p>
-            <a href="#" class="btn btn--full margin-right-sm"
+            <a href="#cta" class="btn btn--full margin-right-sm"
               >Start eating well</a
             >
             <a href="#" class="btn btn--outline">Learn more &darr;</a>
@@ -110,7 +120,7 @@
           </div>
         </div>
       </section>
-      <section class="section-how">
+      <section class="section-how" id="how-it-work">
         <div class="container">
           <!-- step 01 -->
           <span class="subheading">How it works</span>
@@ -172,7 +182,7 @@
           </div>
         </div>
       </section>
-      <section class="section-meals">
+      <section class="section-meals" id="meals">
         <div class="container center-text">
           <!-- step 01 -->
           <span class="subheading">Meals</span>
@@ -292,7 +302,7 @@
           <a href="#" class="link">See all recipes &rarr;</a>
         </div>
       </section>
-      <section class="section-testimonials grid">
+      <section class="section-testimonials grid" id="testimonials">
         <div class="testimonials-container">
           <!-- step 01 -->
           <span class="subheading">Testimonials</span>
@@ -425,7 +435,7 @@
           </figure>
         </div>
       </section>
-      <section class="section-pricing">
+      <section class="section-pricing" id="price">
         <div class="container">
           <!-- step 01 -->
           <span class="subheading">Pricing</span>
@@ -534,7 +544,7 @@
           </div>
         </div>
       </section>
-      <section class="section-cta">
+      <section class="section-cta" id="cta">
         <div class="container">
           <div class="cta">
             <div class="cta-text-box">
@@ -621,7 +631,8 @@
             </li>
           </ul>
           <p class="copyright">
-            Copyright &copy; 2022 by Omnifood, Inc. All rights reserved
+            Copyright &copy;<span class="year"> 2027</span> by Omnifood, Inc.
+            All rights reserved
           </p>
         </div>
         <div class="address-col">
